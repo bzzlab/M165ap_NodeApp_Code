@@ -32,5 +32,5 @@ module.exports = class Movie {
 //??
     }
 
-    getTitlesByRegex = getTitlesByRegex;
+//??
 }
