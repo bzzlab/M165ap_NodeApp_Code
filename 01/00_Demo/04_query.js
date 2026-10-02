@@ -8,7 +8,7 @@ async function main() {
 
 //create movie schema
 let movieSchema = new mongoose.Schema({
-//??
+    title : String
 });
 //create movie model based on schema
 const Movies = mongoose.model('movies', movieSchema);
@@ -18,14 +18,21 @@ main().catch(err => console.log(err))
 
 //create function run with queries
 async function run(){
-    let year = 1960;
 
+    //show all possible ratings
+//??
+//??
+//??
+//??
+//??
+
+    let year = 1960;
     //count all movies released in 1960
-    await Movies.find({year: year})
-        .countDocuments()
-        .then(count => {
-            console.log(`Movies in year ${year}: ${count} movies`);
-    }).catch(err => console.log(err));
+//??
+//??
+//??
+//??
+//??
     //close connection
     await mongoose.connection.close()
 }
